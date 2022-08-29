@@ -136,7 +136,10 @@ nav {
   color: #7a7a7a;
   text-align: center;
 }
-.flexy img {
+
+.flexy img,
+.wavy,
+.gym-icon {
   filter: opacity(0.4) drop-shadow(0 0 0 #fa3f7c);
 }
 .grid-boxes {
@@ -171,4 +174,117 @@ nav {
   font-size: 12px;
   letter-spacing: 0.25px;
   font-weight: 600;
+}
+#cta {
+  padding: 100px 0px;
+  background-image: url(../images/cta-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 8rem 0;
+}
+
+.cta h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.cta h1 span {
+  color: #fa3d7c;
+}
+
+.cta p {
+  font-size: 17px;
+  color: #fff;
+  margin: 15px 0px 25px 0px;
+}
+.classes-head {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.classes-head img {
+  margin: 20px 0;
+}
+.classes-head h1 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.classes-head span {
+  color: #fa3d7c;
+}
+.classes-head p {
+  font-size: 1rem;
+  color: #7a7a7a;
+}
+.class-gridy{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 100%;
+  gap: 20px;
+}
+.class-btn {
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.class-btn a{
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #232d39;
+}
+.gym-icon{
+  margin-right:10px;
+}
+.class-flex{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+#tabs-1 p{
+  width: 50rem;
+}
+.main-rounded-button a {
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  color: #fff;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  background-color: #fa3d7c;
+}
+article h4{
+  font-size: 23px;
+  font-weight: 700;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+article p{
+  font-size: 16px;
+  color: #7a7a7a;
+  margin-bottom: 28px;
+  line-height: 20px;
+}
+article img{
+  border-radius:5px ;
+}
+.hidden{
+  display: none;
 }
