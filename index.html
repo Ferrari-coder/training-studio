@@ -21,12 +21,21 @@
         </div>
         <div class="nav-links">
           <a href="#">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">CLASSES</a>
-          <a href="#">SCHEDULE</a>
-          <a href="#">CONTACT</a>
+          <a href="#about">ABOUT</a>
+          <a href="#classes">CLASSES</a>
+          <a href="#schedule">SCHEDULE</a>
+          <a href="#contact">CONTACT</a>
           <a href="#"><button class="btn show">SIGN UP</button></a>
         </div>
+        <div class="hamburger-body dropdown">
+          <div class="hamburger"></div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-moon"></i>
       </nav>
     </header>
     <video autoplay muted loop id="bg-video">
@@ -62,7 +71,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Basic Fitness</h3>
+              <h3 class="texty">Basic Fitness</h3>
               <p>
                 Get fit, feel fit, and stay fit. maintaining a good level of<br />
                 physical fitness is important.
@@ -79,7 +88,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Advanced Muscle Course</h3>
+              <h3 class="texty darkmode-colors">Advanced Muscle Course</h3>
               <p>
                 Focuses on muscular endurance; which is the ability of a<br />
                 muscle to continue exerting force without tiring.
@@ -96,7 +105,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>New Gym Training</h3>
+              <h3 class="texty">New Gym Training</h3>
               <p>
                 It covers the gym's etiquette, how to use machines and <br />
                 access each area of the Gym.
@@ -113,7 +122,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Yoga Training</h3>
+              <h3 class="texty">Yoga Training</h3>
               <p>
                 Flexibility improves the ability to link movements together
                 <br />
@@ -131,7 +140,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Basic Muscle Course</h3>
+              <h3 class="texty">Basic Muscle Course</h3>
               <p>
                 Focuses on lifting a set of weight in a prescribed position
                 <br />
@@ -149,7 +158,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Body Building Course</h3>
+              <h3 class="texty">Body Building Course</h3>
               <p>
                 This is your complete guide to Body Building. From bulking
                 <br />
@@ -279,7 +288,7 @@
     </section>
 
     <!--schedule scetion starts -->
-    <section class="schedule">
+    <section class="schedule" id="schedule">
       <div class="container">
         <div class="schedule-head">
           <h1>CLASSES <span>SCHEDULE</span></h1>
@@ -585,7 +594,7 @@
     <!-- experts section end -->
 
     <!-- contact form section starts -->
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
       <div class="container">
         <form action="get" onsubmit="sendMail()">
           <div class="form-row">

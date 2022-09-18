@@ -26,6 +26,24 @@ const textColor2 = document.querySelector(".tue");
 const textColor3 = document.querySelector(".wed");
 const textColor4 = document.querySelector(".thur");
 const textColor5 = document.querySelector(".fri");
+const darkBody = document.querySelector("body");
+const moonie = document.querySelector(".fa-moon");
+const darkie = document.querySelectorAll(".texty");
+const burger = document.querySelector(".hamburger-body");
+
+
+burger.addEventListener("click", function() {
+  burger.classList.toggle("open")
+})
+
+console.log(darkie);
+
+  moonie.addEventListener("click", () => {
+    darkBody.classList.toggle("darkmode");
+    for (let i = 0; i < darkie.length; i++) {
+      darkie[i].classList.toggle("darkmode-colors")
+    }
+  });
 
 firstClass.addEventListener("click", () => {
   firstArticle.classList.remove("hidden");
