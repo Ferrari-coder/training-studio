@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/364987320f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Training Studio</title>
   </head>
   <body>
@@ -17,13 +21,24 @@
         </div>
         <div class="nav-links">
           <a href="#">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">CLASSES</a>
-          <a href="#">SCHEDULE</a>
-          <a href="#">CONTACT</a>
+          <a href="#about">ABOUT</a>
+          <a href="#classes">CLASSES</a>
+          <a href="#schedule">SCHEDULE</a>
+          <a href="#contact">CONTACT</a>
           <a href="#"><button class="btn show">SIGN UP</button></a>
         </div>
+        <div class="hamburger-body dropdown">
+          <div class="hamburger"></div>
+        </div>
       </nav>
+      <div class="drop_down-menu">
+        <a href="#">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#classes">CLASSES</a>
+        <a href="#schedule">SCHEDULE</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#"><button class="btn show">SIGN UP</button></a>
+      </div>
     </header>
     <video autoplay muted loop id="bg-video">
       <source src="./images/gym-video.mp4" type="video/mp4" />
@@ -44,8 +59,7 @@
           <img src="./images/line-dec.png" alt="wavy-lines" class="wavy" />
           <p>
             Each of these programs have been carefully selected to match your
-            needs<br />
-            and provide desireable results
+            needs and provide desireable results
           </p>
         </div>
         <div class="grid-boxes">
@@ -58,7 +72,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Basic Fitness</h3>
+              <h3 class="texty">Basic Fitness</h3>
               <p>
                 Get fit, feel fit, and stay fit. maintaining a good level of<br />
                 physical fitness is important.
@@ -75,7 +89,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Advanced Muscle Course</h3>
+              <h3 class="texty darkmode-colors">Advanced Muscle Course</h3>
               <p>
                 Focuses on muscular endurance; which is the ability of a<br />
                 muscle to continue exerting force without tiring.
@@ -92,7 +106,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>New Gym Training</h3>
+              <h3 class="texty">New Gym Training</h3>
               <p>
                 It covers the gym's etiquette, how to use machines and <br />
                 access each area of the Gym.
@@ -109,7 +123,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Yoga Training</h3>
+              <h3 class="texty">Yoga Training</h3>
               <p>
                 Flexibility improves the ability to link movements together
                 <br />
@@ -127,7 +141,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Basic Muscle Course</h3>
+              <h3 class="texty">Basic Muscle Course</h3>
               <p>
                 Focuses on lifting a set of weight in a prescribed position
                 <br />
@@ -145,7 +159,7 @@
               />
             </div>
             <div class="text-in-box">
-              <h3>Body Building Course</h3>
+              <h3 class="texty">Body Building Course</h3>
               <p>
                 This is your complete guide to Body Building. From bulking
                 <br />
@@ -275,7 +289,7 @@
     </section>
 
     <!--schedule scetion starts -->
-    <section class="schedule">
+    <section class="schedule" id="schedule">
       <div class="container">
         <div class="schedule-head">
           <h1>CLASSES <span>SCHEDULE</span></h1>
@@ -461,7 +475,7 @@
               <tr>
                 <td>Yoga Training Class</td>
                 <td></td>
-                <td>2:00PM - 3:30PM	</td>
+                <td>2:00PM - 3:30PM</td>
                 <td>Hector T. Daigle</td>
               </tr>
               <tr>
@@ -475,6 +489,180 @@
         </div>
       </div>
     </section>
+    <!--Schedule section end-->
+
+    <!--experts section start-->
+    <section class="experts">
+      <div class="container">
+        <div class="experts-head">
+          <h1>EXPERT <span>TRAINERS</span></h1>
+          <img src="./images/line-dec.png" alt="wavy-lines" class="wavy" />
+          <p>Bringing you closer to our expert trainers and instructors.</p>
+        </div>
+        <div class="trainers-flexy">
+          <div class="container-box">
+            <div class="image-part">
+              <img
+                src="./images/first-trainer.jpg"
+                alt="trainers picture"
+                class="trainers-img"
+              />
+            </div>
+            <div class="text-part">
+              <span>Strength Trainer</span>
+              <h2>Bret D. Bowers</h2>
+              <p>
+                Delivers high-energy trainings using <br />
+                the latest techniques in exercise <br />
+                science, cardio programs and <br />
+                strength training.
+              </p>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-behance"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container-box">
+            <div class="image-part">
+              <img
+                src="./images/second-trainer.jpg"
+                alt="trainers picture"
+                class="trainers-img"
+              />
+            </div>
+            <div class="text-part">
+              <span>Muscle Trainer</span>
+              <h2>Hector T. Daigle</h2>
+              <p>
+                Ensures effective workouts, identifying <br />
+                different muscle groups and <br />
+                explaining appropriate methods to <br />
+                strengthen specific muscles.
+              </p>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-behance"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container-box">
+            <div class="image-part">
+              <img
+                src="./images/third-trainer.jpg"
+                alt="trainers picture"
+                class="trainers-img"
+              />
+            </div>
+            <div class="text-part">
+              <span>Power Trainer</span>
+              <h2>Paul D. Newman</h2>
+              <p>
+                Leads kinesthetic group exercise <br />
+                classes, design classes to match the <br />
+                skill and learning level of all <br />
+                participants.
+              </p>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-behance"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- experts section end -->
+
+    <!-- contact form section starts -->
+    <section class="contact-form" id="contact">
+      <div class="container darkie-container
+      ">
+        <form action="get" onsubmit="sendMail()">
+          <div class="form-row">
+            <div class="input-data">
+              <input
+                type="text"
+                name="First-name"
+                id="first-name"
+                placeholder="First name*"
+                required
+              />
+            </div>
+            <div class="input-data">
+              <input
+                type="text"
+                name="Last-name"
+                id="last-name"
+                placeholder="Last name*"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" name="subject" placeholder="Subject" />
+            </div>
+          </div>
+          <div class="form-row textarea">
+            <div class="input-data">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="main-button">
+            <input type="submit" value="SEND MESSAGE" class="btn show" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>&copy;2022 - Training Studio</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="script.js"></script>
 </html>

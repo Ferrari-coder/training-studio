@@ -26,6 +26,15 @@ const textColor2 = document.querySelector(".tue");
 const textColor3 = document.querySelector(".wed");
 const textColor4 = document.querySelector(".thur");
 const textColor5 = document.querySelector(".fri");
+const burger = document.querySelector(".hamburger-body");
+const dropDown = document.querySelector(".drop_down-menu");
+
+burger.addEventListener("click", function () {
+  burger.classList.toggle("open");
+  dropDown.classList.toggle("show_dropdown");
+});
+
+
 
 firstClass.addEventListener("click", () => {
   firstArticle.classList.remove("hidden");
