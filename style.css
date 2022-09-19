@@ -120,6 +120,8 @@ nav {
   position: fixed;
   right: 40px;
   transition: all 0.6s ease-out;
+  width: 32px;
+  
 }
 .test {
   position: relative;
@@ -387,6 +389,7 @@ article p {
   color: #7a7a7a;
   margin-bottom: 28px;
   line-height: 20px;
+  max-width: 100%;
 }
 article img {
   border-radius: 5px;
@@ -524,7 +527,6 @@ td {
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-
 form .btn {
   margin-top: 50px;
   margin-left: 10px;
@@ -573,16 +575,8 @@ footer p {
 footer p a:hover {
   color: #370110;
 }
-.darkmode {
-  color: #fff;
-  background-color: #11141b;
-}
-.darkmode-colors {
-  color: #ffffff;
-}
-.dark_moon {
-  color: white;
-}
+
+
 @media  (max-width: 767px) {
   
 
@@ -714,8 +708,15 @@ footer p a:hover {
   }
   .class-flex{
     display: grid;
+    grid-template-columns: 100%;
+  }
+  .class-gridy{
+    grid-template-columns: 100%;
+  }
+  article p {
+    max-width: 100%;
+  }
+  article img {
     width: 100%;
   }
-
-
 }

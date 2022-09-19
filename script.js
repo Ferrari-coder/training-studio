@@ -26,9 +26,6 @@ const textColor2 = document.querySelector(".tue");
 const textColor3 = document.querySelector(".wed");
 const textColor4 = document.querySelector(".thur");
 const textColor5 = document.querySelector(".fri");
-const darkBody = document.querySelector("body");
-const moonie = document.querySelector(".fa-moon");
-const darkie = document.querySelectorAll(".texty");
 const burger = document.querySelector(".hamburger-body");
 const dropDown = document.querySelector(".drop_down-menu");
 
@@ -37,15 +34,7 @@ burger.addEventListener("click", function () {
   dropDown.classList.toggle("show_dropdown");
 });
 
-console.log(darkie);
 
-moonie.addEventListener("click", () => {
-  darkBody.classList.toggle("darkmode");
-  moonie.classList.toggle("dark_moon");
-  for (let i = 0; i < darkie.length; i++) {
-    darkie[i].classList.toggle("darkmode-colors");
-  }
-});
 
 firstClass.addEventListener("click", () => {
   firstArticle.classList.remove("hidden");
