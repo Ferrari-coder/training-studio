@@ -7,10 +7,14 @@ body {
   transition: all 1s ease-in-out;
   font-family: "Poppins", sans-serif;
 }
+
+/* for the highlight */
 ::selection {
   background: #fa3d7c;
   color: #ffffff;
 }
+
+/* nav bar style begins */
 nav {
   display: flex;
   justify-content: space-around;
@@ -64,6 +68,8 @@ nav {
   color: #370110;
   cursor: pointer;
 }
+
+/* for the menu that shows in mobile view */
 .hamburger-body {
   display: none;
   width: 50px;
@@ -114,18 +120,10 @@ nav {
   transform: rotateZ(-45deg) translateX(0px) translateY(5px);
   background-color: black;
 }
-.fa-moon {
-  color: black;
-  font-size: 30px;
-  position: fixed;
-  right: 40px;
-  transition: all 0.6s ease-out;
-  width: 32px;
-  
-}
 .test {
   position: relative;
 }
+/* for the dropdown in the mobile view nav  */
 .drop_down-menu {
   display: none;
   flex-direction: column;
@@ -162,6 +160,9 @@ nav {
   opacity: 1;
   height: 20rem;
 }
+/* nav bar ends */
+
+/* hero part starts */
 #bg-video {
   min-width: 100%;
   min-height: 95vh;
@@ -214,6 +215,9 @@ nav {
   color: #fa3d7c;
   font-weight: 900;
 }
+/* hero part ends */
+
+/* about styling starts */
 .section-about .container {
   margin-top: 80px;
 }
@@ -281,6 +285,9 @@ nav {
   letter-spacing: 0.25px;
   font-weight: 600;
 }
+/* about ends */
+
+/* cta styling starts */
 #cta {
   padding: 100px 0px;
   background-image: url(../images/cta-bg.jpg);
@@ -308,6 +315,9 @@ nav {
   color: #fff;
   margin: 15px 0px 25px 0px;
 }
+/* cta ends */
+
+/* classes styling starts */
 .classes-head {
   text-align: center;
   margin-bottom: 48px;
@@ -400,6 +410,9 @@ article img {
 .color-text a {
   color: #fa3d7c;
 }
+/* class ends */
+
+/* schedule styling starts */
 .schedule {
   margin: 128px 0;
   padding: 0px 0px 140px 0px;
@@ -452,6 +465,9 @@ td {
 .mon {
   color: #fa3d7c;
 }
+/* schedule ends */
+
+/* experts styling starts */
 .experts-head {
   text-align: center;
   margin-bottom: 80px;
@@ -508,6 +524,9 @@ td {
   color: #7a7a7a;
   font-size: 16px;
 }
+/* experts end */
+
+/* contact form styling starts */
 .contact-form {
   padding: 100px 0px;
   background-image: url(./images/contact-bg.jpg);
@@ -562,6 +581,9 @@ form .form-row .textarea {
   font-family: "Poppins", sans-serif;
   padding: 10px;
 }
+/* contact form ends */
+
+/* footer styling starts */
 footer {
   text-align: center;
   padding: 30px 0px;
@@ -575,6 +597,7 @@ footer p {
 footer p a:hover {
   color: #370110;
 }
+/* footer ends */
 
 
 @media  (max-width: 767px) {
